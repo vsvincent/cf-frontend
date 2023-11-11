@@ -11,7 +11,7 @@ export default function Services() {
     <main className="flex min-h-screen flex-col items-center justify-between">
     <DynamicNavbar activeNavItem={activeNavItem}/>
     <RadioGroup
-      label="Select your favorite city"
+      label="Select service:"
     >
       <Radio value="buenos-aires">Catering</Radio>
       <Radio value="sydney">Meal PrepPrivChef</Radio>
