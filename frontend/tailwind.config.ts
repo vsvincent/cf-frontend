@@ -35,7 +35,7 @@ const config: Config = {
         },
         dark: {
           colors: {
-            background: "#000000", // or DEFAULT
+            background: "#FFFFFF", // or DEFAULT
             foreground: "#ECEDEE", // or 50 to 900 DEFAULT
             primary: {
               //... 50 to 900
@@ -51,7 +51,7 @@ const config: Config = {
           colors: {
             primary: {
               DEFAULT: "#BEF264",
-              foreground: "#000000",
+              foreground: "#FFFFFF",
             },
             focus: "#BEF264",
           },
