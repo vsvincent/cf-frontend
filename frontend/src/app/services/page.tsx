@@ -1,23 +1,25 @@
 'use client'
-import {Textarea} from '@nextui-org/react';
 import DynamicNavbar from "../components/DynamicNavbar";
-import {FacebookPage} from '../components/FacebookPage';
+import React from "react";
+import {RadioGroup, Radio} from "@nextui-org/react";
+
+
 
 export default function Services() {
   const activeNavItem = "services"
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
     <DynamicNavbar activeNavItem={activeNavItem}/>
-    <FacebookPage/>
-    <Textarea
-      isReadOnly
-      label="Description"
-      variant="bordered"
-      labelPlacement="outside"
-      placeholder="Enter your description"
-      defaultValue="NextUI is a React UI library that provides a set of accessible, reusable, and beautiful components."
-      className="max-w-xs"
-    />
+    <RadioGroup
+      label="Select your favorite city"
+    >
+      <Radio value="buenos-aires">Catering</Radio>
+      <Radio value="sydney">Meal PrepPrivChef</Radio>
+      <Radio value="san-francisco">Meal Packages</Radio>
+      <Radio value="london">Coaching</Radio>
+      <Radio value="tokyo">Cooking Classes</Radio>
+    </RadioGroup>
+   
     </main>
   )
 }
