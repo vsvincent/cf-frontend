@@ -37,6 +37,11 @@ interface DynamicNavbarProps {
               Events
             </Link>
           </NavbarItem>
+          <NavbarItem isActive={activeNavItem === 'services'}>
+            <Link underline={underlineLink('services')} href="/services">
+              Services
+            </Link>
+          </NavbarItem>
         </NavbarContent>
       </Navbar>
     );
