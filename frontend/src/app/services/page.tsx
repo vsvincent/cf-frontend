@@ -2,6 +2,8 @@
 import DynamicNavbar from "../components/DynamicNavbar";
 import React from "react";
 import {RadioGroup, Radio} from "@nextui-org/react";
+import {Button} from "@nextui-org/react";
+
 
 
 
@@ -19,6 +21,9 @@ export default function Services() {
       <Radio value="london">Coaching</Radio>
       <Radio value="tokyo">Cooking Classes</Radio>
     </RadioGroup>
+    <Button color="primary">
+      Enter
+    </Button>
    
     </main>
   )
