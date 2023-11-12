@@ -15,15 +15,16 @@ export default function Services() {
     <RadioGroup
       label="Select service:"
     >
-      <Radio value="buenos-aires">Catering</Radio>
-      <Radio value="sydney">Meal PrepPrivChef</Radio>
-      <Radio value="san-francisco">Meal Packages</Radio>
-      <Radio value="london">Coaching</Radio>
-      <Radio value="tokyo">Cooking Classes</Radio>
+      <Radio value="catering">Catering</Radio>
+      <Radio value="meal-prepprivchef">Meal PrepPrivChef</Radio>
+      <Radio value="meal-packagees">Meal Packages</Radio>
+      <Radio value="coaching">Coaching</Radio>
+      <Radio value="cooking-classes">Cooking Classes</Radio>
     </RadioGroup>
     <Button color="primary">
       Enter
     </Button>
+  
    
     </main>
   )
